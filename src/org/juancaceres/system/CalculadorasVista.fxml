@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="262.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.juancaceres.system.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="555.0" fitWidth="264.0" layoutX="-1.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@273884529_655197079079533_8418297590470444391_n.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnMasMenos" layoutX="14.0" layoutY="478.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="+/-">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnC" layoutX="135.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="C">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCe" layoutX="74.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="CE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPorcentaje" layoutX="14.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="\%">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDivision" layoutX="198.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="÷">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRaiz" layoutX="135.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="√ ">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPotencia" layoutX="74.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="x²">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUnoX" layoutX="14.0" layoutY="236.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="1/x">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMultiplicacion" layoutX="198.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="*">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnNueve" layoutX="135.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="9">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnOcho" layoutX="74.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="8">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSiete" layoutX="14.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="7">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnResta" layoutX="198.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="-">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSeis" layoutX="135.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="6">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCinco" layoutX="74.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="5">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCuatro" layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="4">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSuma" layoutX="198.0" layoutY="417.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="+">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnTres" layoutX="135.0" layoutY="417.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="3">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDos" layoutX="74.0" layoutY="417.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="2">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUno" layoutX="14.0" layoutY="417.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="1">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnIgual" layoutX="198.0" layoutY="478.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="=">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPunto" layoutX="135.0" layoutY="478.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text=".">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCero" layoutX="74.0" layoutY="478.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@calculadoras.CSS" text="0">
+         <font>
+            <Font name="Matura MT Script Capitals" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtPantalla" alignment="BOTTOM_RIGHT" layoutX="14.0" layoutY="76.0" prefHeight="74.0" prefWidth="236.0" promptText="0.">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </TextField>
+      <MenuBar layoutX="-2.0" layoutY="2.0" stylesheets="@calculadoras.CSS">
+        <menus>
+          <Menu mnemonicParsing="false" text="Archivo">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="?" />
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
